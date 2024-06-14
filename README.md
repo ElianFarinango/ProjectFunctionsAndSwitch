@@ -41,20 +41,28 @@ Calls the print method to print the text entered by the user.
 Case "c":
 
 Prints "Option selected is: c".
+
 Prompts the user for an integer.
+
 Call the cosOfNumber method with this number and store the result.
 Convert the number to radians using Math.toRadians.
+
 Calculates the cosine of the angle in radians and stores it in a variable of type float.
 Call the print method to print the cosine value.
+
 Considerations:
 Modularity: The code is well organized into methods, making it easy to maintain and reuse.
+
 Scanner Usage: The Scanners used could be optimized as multiple instances are created when a single instance could be sufficient.
+
 Redundancies: The cosOfNumber method does not perform any actual operations and simply returns the received number. It might be unnecessary unless you plan to add more functionality in the future.
+
 Potential Improvements:
 Scanner usage optimization: Use a single Scanner instance for all user input.
+
 Error Handling: Include exception handling for invalid input (for example, if the user enters text when a number is expected).
 cosOfNumber Method: This method could perform some significant operation or could be removed if no additional functionality is planned to be added.
----
+
 Quesetions:
 ---
 What was your motivation?
@@ -87,3 +95,13 @@ Requests and displays a message entered by the user.
 Calculate the cosine of a number:
 
 Converts an angle to radians and shows its cosine.
+
+Results
+
+
+
+![1era captura](https://github.com/ElianFarinango/ProjectFunctionsAndSwitch/assets/169933606/93e6b473-a4cc-4ed6-9457-4eef952773b0)
+
+![2da captura](https://github.com/ElianFarinango/ProjectFunctionsAndSwitch/assets/169933606/78a9fb70-9658-47aa-8cf0-209139238120)
+
+![3era captura](https://github.com/ElianFarinango/ProjectFunctionsAndSwitch/assets/169933606/87831877-72da-4dbf-943c-be8e09627f19)
