@@ -13,12 +13,15 @@ public class HelloApplication {
     public static void print(String man) {
         System.out.println(man);
     }
-    public static int cosOfNumber(int grades){
-        return grades;
+    public static int cosOfNumber(int degrees){
+        return degrees;
     }
     public static void main(String[] args) {
      Scanner options= new Scanner(System.in);
      System.out.println("Please, insert a letter between a, b or c");
+     System.out.println("a for the summation of two numbers");
+     System.out.println("b for write a string");
+     System.out.println("c to find the cosine of a number in degrees");
      String optionSelected = options.nextLine();
         switch (optionSelected.toLowerCase()){
             case "a":
@@ -41,11 +44,11 @@ public class HelloApplication {
                 break;
             case "c":
                 Scanner temporalNumber = new Scanner(System.in);
-                System.out.println("Please insert your number of grades");
-                int grades= temporalNumber.nextInt();
-                int numForCos=cosOfNumber(grades);
-                double grade= Math.toRadians(numForCos);
-                float radians= (float) Math.cos(grade);
+                System.out.println("Please insert your number of degrees");
+                int degrees= temporalNumber.nextInt();
+                int numForCos=cosOfNumber(degrees);
+                double degree= Math.toRadians(numForCos);
+                float radians= (float) Math.cos(degree);
                 print("Your result is: "+ radians);
                 break;
         }
