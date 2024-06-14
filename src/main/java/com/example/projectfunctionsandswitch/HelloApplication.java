@@ -4,16 +4,17 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-
 import java.io.IOException;
-
+import java.math.*;
 public class HelloApplication {
     public static int sumNumbers(int numberOne,int numberTwo) {
-        int result = numberOne + numberTwo;
-        return result;
+        return numberOne + numberTwo;
     }
     public static void print(String man) {
         System.out.println(man);
+    }
+    public static int cosOfNumber(int grades){
+        return grades;
     }
     public static void main(String[] args) {
      Scanner options= new Scanner(System.in);
@@ -36,13 +37,17 @@ public class HelloApplication {
                 Scanner message= new Scanner(System.in);
                 System.out.println("Please, insert a text");
                 String yourMessage = message.nextLine();
-                print("Your text is: "+yourMessage);
+                print("Your text is: "+ yourMessage);
                 break;
             case "c":
-
+                Scanner temporalNumber = new Scanner(System.in);
+                System.out.println("Please insert your number of grades");
+                int grades= temporalNumber.nextInt();
+                int numForCos=cosOfNumber(grades);
+                double grade= Math.toRadians(numForCos);
+                float radians= (float) Math.cos(grade);
+                print("Your result is: "+ radians);
                 break;
         }
-
-
     }
 }
