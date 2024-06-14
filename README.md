@@ -62,7 +62,7 @@ Call the print method to print the cosine value.
 ![3era captura](https://github.com/ElianFarinango/ProjectFunctionsAndSwitch/assets/169933606/87831877-72da-4dbf-943c-be8e09627f19)
 
 
-Quesetions:
+Questions:
 ---
 What was your motivation?
 
