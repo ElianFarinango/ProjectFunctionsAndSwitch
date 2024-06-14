@@ -25,6 +25,8 @@ Initializes a Scanner to receive user input.
 Prompts the user to enter a letter (a, b, or c) and stores this entry.
 It uses a switch control structure to determine which option the user selected and execute the corresponding code block.
 Switch options:
+
+
 Case "a":
 
 Prints "Option selected is: a".
@@ -32,11 +34,17 @@ Prompts the user for two integers.
 Call the sumNumbers method with these two numbers and store the result.
 Call the print method to print the result of the addition.
 
+![1era captura](https://github.com/ElianFarinango/ProjectFunctionsAndSwitch/assets/169933606/93e6b473-a4cc-4ed6-9457-4eef952773b0)
+
+
 Case "b":
 
 Prints "Option selected is: b".
 Prompts the user for a text.
 Calls the print method to print the text entered by the user.
+
+![2da captura](https://github.com/ElianFarinango/ProjectFunctionsAndSwitch/assets/169933606/78a9fb70-9658-47aa-8cf0-209139238120)
+
 
 Case "c":
 
@@ -50,31 +58,26 @@ Convert the number to radians using Math.toRadians.
 Calculates the cosine of the angle in radians and stores it in a variable of type float.
 Call the print method to print the cosine value.
 
-Considerations:
-Modularity: The code is well organized into methods, making it easy to maintain and reuse.
 
-Scanner Usage: The Scanners used could be optimized as multiple instances are created when a single instance could be sufficient.
+![3era captura](https://github.com/ElianFarinango/ProjectFunctionsAndSwitch/assets/169933606/87831877-72da-4dbf-943c-be8e09627f19)
 
-Redundancies: The cosOfNumber method does not perform any actual operations and simply returns the received number. It might be unnecessary unless you plan to add more functionality in the future.
-
-Potential Improvements:
-Scanner usage optimization: Use a single Scanner instance for all user input.
-
-Error Handling: Include exception handling for invalid input (for example, if the user enters text when a number is expected).
-cosOfNumber Method: This method could perform some significant operation or could be removed if no additional functionality is planned to be added.
 
 Quesetions:
 ---
 What was your motivation?
+
 The motivation for this project was to practice basic Java concepts and learn how to organize code using methods and control flow.
 
 Why did you build this project?
+
 I built this project to strengthen my Java skills and create a simple application that interacts with the user.
 
 What problem does it solve?
+
 The project allows you to perform basic operations such as adding numbers, displaying messages and calculating the cosine of an angle, facilitating simple mathematical tasks.
 
 You learned?
+
 I learned:
 
 Using Scanner for user input.
@@ -83,6 +86,7 @@ Flow control with switch.
 Basic mathematical calculations in Java.
 
 What highlights your project?
+
 It stands out for its simplicity and clarity, making effective use of methods and flow control to solve basic problems.
 
 Characteristics
@@ -96,12 +100,9 @@ Calculate the cosine of a number:
 
 Converts an angle to radians and shows its cosine.
 
-Results
 
 
 
-![1era captura](https://github.com/ElianFarinango/ProjectFunctionsAndSwitch/assets/169933606/93e6b473-a4cc-4ed6-9457-4eef952773b0)
 
-![2da captura](https://github.com/ElianFarinango/ProjectFunctionsAndSwitch/assets/169933606/78a9fb70-9658-47aa-8cf0-209139238120)
 
-![3era captura](https://github.com/ElianFarinango/ProjectFunctionsAndSwitch/assets/169933606/87831877-72da-4dbf-943c-be8e09627f19)
+
