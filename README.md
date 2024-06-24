@@ -3,7 +3,7 @@ title: Project about functions and switch
 members: Elian Farinango - Brenda Jacome
 date: 14 - 06 - 2024
 ---
-Description:
+Project Description:
 ---
 The code is a console application written in Java version 17.0.1 that includes a switch control structure to execute different functionalities depending on the option entered by the user.
 Use static methods to perform specific operations. The application offers three options (a, b, c), each performing a different task:
